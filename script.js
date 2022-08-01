@@ -12,11 +12,11 @@ var inputText9 = $("#text09");
 // current date/time from moment.js
 var now = moment();
 
-var currentDay = document.querySelector("#currentDay");
+var currentDay = document.querySelector("#currentDay"); // calls current day from moment
 
 currentDay.textContent = now.format("dddd MMMM Mo YYYY");
 
-console.log(now.format("dddd MMMM Mo YYYY"));
+console.log(now.format("dddd MMMM Mo YYYY")); // works
 
 var currentHour = now.hour(); // calls current hour from moment
 
