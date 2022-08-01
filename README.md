@@ -28,6 +28,6 @@ Click the box inbetween the time box & save button to enter text for your planne
 
 Screenshot 2022-08-01 at 13 20 49" src="https://user-images.githubusercontent.com/64646369/182146549-cc0b988a-d3d8-432e-90c9-060dd284db45.png
 
-# Live URL:
+# Live URL: https://jsmall4.github.io/work-day-planner/
 
-# Github Repo:
+# Github Repo: https://github.com/jsmall4/work-day-planner
