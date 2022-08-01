@@ -24,18 +24,112 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3 text-center font-weight-3">Work Day Scheduler</h1>
+      <p class="lead text-center">
+        A simple calendar app for scheduling your work day
+      </p>
       <!-- use below to fecth third party api to display current day/time -->
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead text-center"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
+
+    <main class="container d-flex flex-column">
+      <h1 id="today">Today:</h1>
+
+      <!-- Timeblocks -->
+      <div class="row">
+        <p class="col border-top">9:00AM</p>
+        <textarea id="text01" name="09" class="textarea col-8"></textarea>
+        <button
+          id="button1"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">10:00AM</p>
+        <textarea id="text02" name="10" class="textarea col-8"></textarea>
+        <button
+          id="button2"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">11:00AM</p>
+        <textarea id="text03" name="11" class="textarea col-8"></textarea>
+        <button
+          id="button3"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">12:00PM</p>
+        <textarea id="text04" name="12" class="textarea col-8"></textarea>
+        <button
+          id="button4"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">13:00PM</p>
+        <textarea id="text05" name="13" class="textarea col-8"></textarea>
+        <button
+          id="button5"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">14:00PM</p>
+        <textarea id="text06" name="14" class="textarea col-8"></textarea>
+        <button
+          id="button6"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">15:00PM</p>
+        <textarea id="text07" name="15" class="textarea col-8"></textarea>
+        <button
+          id="button7"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">16:00PM</p>
+        <textarea id="text07" name="16" class="textarea col-8"></textarea>
+        <button
+          id="button7"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+
+      <div class="row">
+        <p class="col border-top">17:00PM</p>
+        <textarea id="text08" name="17" class="textarea col-8"></textarea>
+        <button
+          id="button8"
+          type="button"
+          class="saveBtn far fa-save col"
+        ></button>
+      </div>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <!-- added link to JavaScript file -->
+    <!-- Link to JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>
